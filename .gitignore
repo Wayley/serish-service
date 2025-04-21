@@ -103,6 +103,7 @@ dist
 # vuepress v2.x temp and cache directory
 .temp
 .cache
+.tmp
 
 # vitepress build output
 **/.vitepress/dist
@@ -134,3 +135,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.DS_Store
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
