@@ -1,2 +1,1 @@
 # serish-service
-serish service
