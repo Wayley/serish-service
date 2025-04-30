@@ -1,33 +1,44 @@
 # serish-service
 
+## Description
+
+Serish service project.
+
 ## Setup
 
 ```bash
-$ npm install
+$ pnpm install
 ```
 
-## Compile & Run
+## Compile and run
 
 ```bash
 # development
-$ npm run start
+$ pnpm run start
 
 # watch mode
-$ npm run start:dev
+$ pnpm run start:dev
 
 # production mode
-$ npm run start:prod
+$ pnpm run start:prod
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ pnpm run test
 
 # e2e tests
-$ npm run test:e2e
+$ pnpm run test:e2e
 
 # test coverage
-$ npm run test:cov
+$ pnpm run test:cov
+```
+
+## Deployment
+
+```bash
+$ pnpm install -g @nestjs/mau
+$ mau deploy
 ```
